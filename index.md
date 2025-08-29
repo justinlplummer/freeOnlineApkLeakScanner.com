@@ -4,7 +4,7 @@
 
 ---
 
-![Leaking bucket graphic](assets/leak-graphic.png)
+![Leaking bucket graphic](assets/bucketLeak.png)
 
 > **TL;DR:** A single misconfigured Firebase bucket in a popular tea delivery app exposed thousands of users' private details to the public internet. Within days, malicious actors exploited the data to doxx victims across social platforms.  
 >  
@@ -22,7 +22,7 @@ That meant:
 - Anyone with a browser could list files  
 - Sensitive data (phone numbers, order history, even GPS delivery routes) was sitting publicly on the internet  
 
-![Bucket Exploit Illustration](assets/bucket-diagram.png)
+![Bucket Exploit Illustration](assets/bucketExploit.png)
 
 Once attackers noticed, the exploitation was swift:  
 
@@ -55,7 +55,7 @@ The Tea App incident is just one of many. It could happen to anyone rushing to p
 
 That’s where our tool comes in.  
 
-![Scanner Workflow](assets/scanner-workflow.png)
+![Scanner Workflow](assets/workFlow.png)
 
 **APK Leak Scanner** is a lightweight static analysis tool that:  
 
