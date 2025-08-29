@@ -4,14 +4,20 @@
 
 ---
 
-<p style="text-align:center;">
-  <img src="assets/bucketLeak.png" alt="Bucket Leak Graphic" 
-       style="display:block; margin: 20px auto; width:30%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
-</p>
+<div style="display:flex; align-items:flex-start; gap:20px; margin:20px 0;">
+  <!-- Left column: text -->
+  <div style="flex: 0 0 60%;">
+    <p><strong>TL;DR:</strong> A single misconfigured Firebase bucket in a popular tea delivery app exposed thousands of users' private details to the public internet. Within days, malicious actors exploited the data to doxx victims across social platforms.</p>
+    <p>Our <strong>APK Leak Scanner</strong> was built to prevent exactly this kind of disaster.</p>
+  </div>
 
-> **TL;DR:** A single misconfigured Firebase bucket in a popular tea delivery app exposed thousands of users' private details to the public internet. Within days, malicious actors exploited the data to doxx victims across social platforms.  
->  
-> Our **APK Leak Scanner** was built to prevent exactly this kind of disaster.
+  <!-- Right column: image -->
+  <div style="flex: 0 0 40%; text-align:center;">
+    <img src="assets/bucketLeak.png" alt="Bucket Leak Graphic"
+         style="display:block; margin:0 auto; width:100%; max-width:200px; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+  </div>
+</div>
+
 
 ---
 
