@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A short write up on apk leaks and how to prevent them.</title>
+  <meta name="google-site-verification" content="86dwaRY3TVSC9ozrBhENBhorbwBg5t7CJlUbJ9XN6ws" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    h1, h2, h3 {
+      margin-top: 40px;
+    }
+    hr {
+      border: none;
+      border-top: 2px solid #ddd;
+      margin: 40px 0;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>How a Public-Facing Bucket Led to One of the Largest Mobile App Data Leaks — and How to Prevent It</h1>
+<p><em>Posted on August 29, 2025 by APK Leak Scanner Team</em></p>
+<hr>
+
+<!-- TL;DR Section -->
+<div style="display:flex; align-items:flex-start; gap:20px; margin:20px 0; background-color:#f7f7f7; padding:20px; border-radius:10px;">
+  <!-- Left column: text -->
+  <div style="flex: 0 0 60%;">
+    <p><strong>TL;DR:</strong> A single misconfigured Firebase bucket in a popular tea delivery app exposed thousands of users' private details to the public internet. Within days, malicious actors exploited the data to doxx victims across social platforms.</p>
+    <p>Our <strong>APK Leak Scanner</strong> was built to prevent exactly this kind of disaster.</p>
+  </div>
+
+  <!-- Right column: image -->
+  <div style="flex: 0 0 40%; text-align:center;">
+    <img src="assets/bucketLeak.png" alt="Bucket Leak Graphic"
+         style="display:block; margin:0 auto; width:100%; max-width:200px; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+  </div>
+</div>
+
+<hr>
+
+<h2>☕ The Tea App Leak: What Went Wrong?</h2>
+<p>Earlier this year, security researchers discovered that a <strong>tea delivery app</strong>, downloaded by millions of users, had left its <strong>Firebase storage bucket wide open</strong>.</p>
+<p>That meant:</p>
+<ul>
+  <li>No authentication was required</li>
+  <li>Anyone with a browser could list files</li>
+  <li>Sensitive data (phone numbers, order history, even GPS delivery routes) was sitting publicly on the internet</li>
+</ul>
+
+<!-- Bucket Exploit Section -->
+<div style="display:flex; align-items:flex-start; gap:20px; margin:20px 0; background-color:#f7f7f7; padding:20px; border-radius:10px;">
+  <!-- Left column: image -->
+  <div style="flex: 0 0 40%; text-align:center;">
+    <img src="assets/bucketExploit.png" alt="Bucket Exploit Graphic"
+         style="display:block; margin:0 auto; width:100%; max-width:200px; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+  </div>
+
+  <!-- Right column: text -->
+  <div style="flex: 0 0 60%;">
+    <p>Once attackers noticed, the exploitation was swift:</p>
+    <ul>
+      <li>The bucket was scraped using automated tools</li>
+      <li>Personal details were aggregated</li>
+      <li>Thousands of innocent users were <strong>doxxed</strong> on forums and Telegram groups</li>
+    </ul>
+    <p>The <strong>root cause</strong> wasn’t a zero-day. It wasn’t a sophisticated hack.</p>
+    <p>It was a <strong>simple misconfiguration</strong> that no one caught.</p>
+  </div>
+</div>
+
+<hr>
+
+<h2>🔍 Why This Matters for Developers</h2>
+<p>Today’s apps don’t just live on phones. They are tightly coupled with <strong>cloud services</strong>:</p>
+<ul>
+  <li>Firebase</li>
+  <li>AWS S3</li>
+  <li>GCP Buckets</li>
+  <li>Azure Storage</li>
+  <li>Dozens of other backends</li>
+</ul>
+<p>When developers hardcode cloud service IDs, API keys, or expose unauthenticated storage, the entire <strong>userbase is put at risk</strong>.</p>
+<p>The Tea App incident is just one of many. It could happen to anyone rushing to push code to production without a final security scan.</p>
+
+<hr>
+
+<h2>🛡️ How APK Leak Scanner Prevents These Issues</h2>
+
+<div style="background-color:#f7f7f7; padding:20px; border-radius:10px; margin:20px 0;">
+  <p style="text-align:left; margin:0 0 20px 0;">
+    <strong>THAT'S WHERE OUR TOOL COMES IN!</strong>
+  </p>
+
+  <img src="assets/workFlow.png" alt="Work Flow Graphic"
+       style="display:block; margin:0 0 20px 0; width:30%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+
+  <p style="text-align:left; margin:0 0 20px 0;">
+    <strong>APK Leak Scanner</strong> is a lightweight static analysis tool that:
+  </p>
+
+  <ul style="margin-left:20px; text-align:left;">
+    <li>✅ <strong>Scans Android APKs</strong> for embedded cloud service configurations (Firebase, AWS, Azure, GCP, etc.)</li>
+    <li>✅ <strong>Detects public-facing buckets</strong> and warns you before attackers do</li>
+    <li>✅ <strong>Flags hardcoded secrets, tokens, and API keys</strong></li>
+    <li>✅ <strong>Analyzes permissions and exported components</strong> for potential abuse</li>
+    <li>✅ <strong>Generates professional reports</strong> in HTML format for display right in the site</li>
+  </ul>
+
+  <p style="text-align:left; margin:20px 0 20px 0;">
+    Our scanner doesn’t replace a full pentest or enterprise-grade suite — but it fills the <strong>critical blind spot</strong> that allowed the Tea App disaster to happen.
+  </p>
+</div>
+
+<hr>
+
+<h2>📈 Why Security-Minded Developers Love This</h2>
+<ul>
+  <li><strong>Fast:</strong> Upload your APK and get results in minutes</li>
+  <li><strong>Transparent:</strong> Clear reports with remediation advice</li>
+  <li><strong>Focused:</strong> Finds what <em>actually</em> leaks, not just noise</li>
+  <li><strong>Free:</strong> Yes, we said FREE!</li>
+</ul>
+<p>By integrating this tool into your CI/CD pipeline, you can <strong>stop a leak before it ever hits production</strong>.</p>
+
+<hr>
+
+<h2>⚖️ A Note on Responsibility</h2>
+<ul>
+  <li>🚫 Do <strong>not</strong> use it to target apps you don’t own or have explicit permission to test</li>
+  <li>✅ Do use it as part of your <strong>defensive security practice</strong></li>
+</ul>
+<p>We believe better tools in the hands of developers mean fewer headlines like the Tea App breach.</p>
+
+<hr>
+
+<h2>🔗 Get Started</h2>
+<ul>
+  <li><a href="https://github.com/yourusername/apkleakscanner">View on GitHub</a></li>
+  <li><a href="https://freeonlineapkleakscanner.com">Try it now!</a></li>
+</ul>
+
+<hr>
+
+<p><em>Security isn’t about paranoia. It’s about prevention. The Tea App leak didn’t have to happen. With the right tools, the next one won’t.</em></p>
+
+</body>
+</html>
