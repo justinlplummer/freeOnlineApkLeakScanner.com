@@ -4,7 +4,7 @@
 
 ---
 
-<div style="display:flex; align-items:flex-start; gap:20px; margin:20px 0;">
+<div style="background-color:#f7f7f7; display:flex; align-items:flex-start; gap:20px; margin:20px 0;">
   <!-- Left column: text -->
   <div style="flex: 0 0 60%;">
     <p><strong>TL;DR:</strong> A single misconfigured Firebase bucket in a popular tea delivery app exposed thousands of users' private details to the public internet. Within days, malicious actors exploited the data to doxx victims across social platforms.</p>
