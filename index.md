@@ -73,22 +73,33 @@ The Tea App incident is just one of many. It could happen to anyone rushing to p
 
 ## 🛡️ How APK Leak Scanner Prevents These Issues
 
-That’s where our tool comes in.  
+<div style="background-color:#f7f7f7; padding:20px; border-radius:10px; margin:20px 0;">
+  <p style="text-align:left; margin:0 0 20px 0;">
+    That’s where our tool comes in.
+  </p>
 
-<p style="text-align:left;">
-  <img src="assets/workFlow.png" alt="Work Flow Graphic" 
-       style="display:block; margin:20px 0 20px 0; width:30%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
-</p>
+  <img src="assets/workFlow.png" alt="Work Flow Graphic"
+       style="display:block; margin:0; width:30%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
 
-**APK Leak Scanner** is a lightweight static analysis tool that:  
+  <p style="text-align:left; margin:0 0 20px 0;">
+    <strong>APK Leak Scanner</strong> is a lightweight static analysis tool that:
+  </p>
 
-✅ **Scans Android APKs** for embedded cloud service configurations (Firebase, AWS, Azure, GCP, etc.)  
-✅ **Detects public-facing buckets** and warns you before attackers do  
-✅ **Flags hardcoded secrets, tokens, and API keys**  
-✅ **Analyzes permissions and exported components** for potential abuse  
-✅ **Generates professional reports** in HTML, CSV, and JSON formats  
+  <ul style="margin-left:20px; text-align:left;">
+    <li>✅ <strong>Scans Android APKs</strong> for embedded cloud service configurations (Firebase, AWS, Azure, GCP, etc.)</li>
+    <li>✅ <strong>Detects public-facing buckets</strong> and warns you before attackers do</li>
+    <li>✅ <strong>Flags hardcoded secrets, tokens, and API keys</strong></li>
+    <li>✅ <strong>Analyzes permissions and exported components</strong> for potential abuse</li>
+    <li>✅ <strong>Generates professional reports</strong> in HTML, CSV, and JSON formats</li>
+  </ul>
 
-Our scanner doesn’t replace a full pentest or enterprise-grade suite — but it fills the **critical blind spot** that allowed the Tea App disaster to happen.  
+  <p style="text-align:left; margin:20px 0 20px 0;">
+    Our scanner doesn’t replace a full pentest or enterprise-grade suite — but it fills the <strong>critical blind spot</strong> that allowed the Tea App disaster to happen.
+  </p>
+
+  
+</div>
+ 
 
 ---
 
