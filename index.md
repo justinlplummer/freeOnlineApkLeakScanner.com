@@ -32,19 +32,26 @@ That meant:
 - Anyone with a browser could list files  
 - Sensitive data (phone numbers, order history, even GPS delivery routes) was sitting publicly on the internet  
 
-<p style="text-align:center;">
-  <img src="assets/bucketExploit.png" alt="Bucket Exploit Graphic" 
-       style="display:block; margin: 20px auto; width:30%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
-</p>
+<div style="display:flex; align-items:flex-start; gap:20px; margin:20px 0; background-color:#f7f7f7; padding:20px; border-radius:10px;">
+  <!-- Left column: image -->
+  <div style="flex: 0 0 40%; text-align:center;">
+    <img src="assets/bucketExploit.png" alt="Bucket Exploit Graphic"
+         style="display:block; margin:0 auto; width:100%; max-width:200px; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+  </div>
 
-Once attackers noticed, the exploitation was swift:  
+  <!-- Right column: text -->
+  <div style="flex: 0 0 60%;">
+    <p>Once attackers noticed, the exploitation was swift:</p>
+    <ul>
+      <li>The bucket was scraped using automated tools</li>
+      <li>Personal details were aggregated</li>
+      <li>Thousands of innocent users were <strong>doxxed</strong> on forums and Telegram groups</li>
+    </ul>
+    <p>The <strong>root cause</strong> wasn’t a zero-day. It wasn’t a sophisticated hack.</p>
+    <p>It was a <strong>simple misconfiguration</strong> that no one caught.</p>
+  </div>
+</div>
 
-- The bucket was scraped using automated tools  
-- Personal details were aggregated  
-- Thousands of innocent users were **doxxed** on forums and Telegram groups  
-
-The **root cause** wasn’t a zero-day. It wasn’t a sophisticated hack.  
-It was a **simple misconfiguration** that no one caught.
 
 ---
 
