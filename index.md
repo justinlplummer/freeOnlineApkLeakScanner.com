@@ -3,12 +3,13 @@
 *Posted on August 29, 2025 by APK Leak Scanner Team*  
 
 ---
-
-<div style="background-color:#f7f7f7; display:flex; align-items:flex-start; gap:20px; margin:20px 0;">
-  <!-- Left column: text -->
-  <div style="flex: 0 0 60%;">
-    <p><strong>TL;DR:</strong> A single misconfigured Firebase bucket in a popular tea delivery app exposed thousands of users' private details to the public internet. Within days, malicious actors exploited the data to doxx victims across social platforms.</p>
-    <p>Our <strong>APK Leak Scanner</strong> was built to prevent exactly this kind of disaster.</p>
+<div style="background-color:#f7f7f7; border-radius:10px; padding:20px; margin:20px 0;">
+  <div style="display:flex; align-items:flex-start; gap:20px; margin:20px 0;">
+    <!-- Left column: text -->
+    <div style="flex: 0 0 60%;">
+      <p><strong>TL;DR:</strong> A single misconfigured Firebase bucket in a popular tea delivery app exposed thousands of users' private details to the public internet. Within days, malicious actors exploited the data to doxx victims across social platforms.</p>
+      <p>Our <strong>APK Leak Scanner</strong> was built to prevent exactly this kind of disaster.</p>
+    </div>
   </div>
 
   <!-- Right column: image -->
