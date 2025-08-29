@@ -4,7 +4,10 @@
 
 ---
 
-![Leaking bucket graphic](assets/bucketLeak.png)
+<p style="text-align:center;">
+  <img src="assets/bucketLeak.png" alt="Bucket Leak Graphic" 
+       style="display:block; margin: 20px auto; width:40%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+</p>
 
 > **TL;DR:** A single misconfigured Firebase bucket in a popular tea delivery app exposed thousands of users' private details to the public internet. Within days, malicious actors exploited the data to doxx victims across social platforms.  
 >  
@@ -22,7 +25,10 @@ That meant:
 - Anyone with a browser could list files  
 - Sensitive data (phone numbers, order history, even GPS delivery routes) was sitting publicly on the internet  
 
-![Bucket Exploit Illustration](assets/bucketExploit.png)
+<p style="text-align:center;">
+  <img src="assets/bucketExploit.png" alt="Bucket Exploit Graphic" 
+       style="display:block; margin: 20px auto; width:40%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+</p>
 
 Once attackers noticed, the exploitation was swift:  
 
@@ -55,7 +61,10 @@ The Tea App incident is just one of many. It could happen to anyone rushing to p
 
 That’s where our tool comes in.  
 
-![Scanner Workflow](assets/workFlow.png)
+<p style="text-align:center;">
+  <img src="assets/workFLow.png" alt="Work Flow Graphic" 
+       style="display:block; margin: 20px auto; width:40%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+</p>
 
 **APK Leak Scanner** is a lightweight static analysis tool that:  
 
