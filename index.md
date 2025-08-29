@@ -77,7 +77,7 @@ That’s where our tool comes in.
 
 <p style="text-align:left;">
   <img src="assets/workFlow.png" alt="Work Flow Graphic" 
-       style="display:block; margin: 20px auto; width:30%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
+       style="display:block; margin:20px 0 20px 0; width:30%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
 </p>
 
 **APK Leak Scanner** is a lightweight static analysis tool that:  
