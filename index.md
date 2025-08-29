@@ -75,7 +75,7 @@ The Tea App incident is just one of many. It could happen to anyone rushing to p
 
 <div style="background-color:#f7f7f7; padding:20px; border-radius:10px; margin:20px 0;">
   <p style="text-align:left; margin:0 0 20px 0;">
-    <strong>THAT'S WHERE OUR TOOL COMES IN!
+    <strong>THAT'S WHERE OUR TOOL COMES IN!</strong>
   </p>
 
   <img src="assets/workFlow.png" alt="Work Flow Graphic"
