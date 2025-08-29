@@ -62,7 +62,7 @@ The Tea App incident is just one of many. It could happen to anyone rushing to p
 That’s where our tool comes in.  
 
 <p style="text-align:center;">
-  <img src="assets/workFLow.png" alt="Work Flow Graphic" 
+  <img src="assets/workFlow.png" alt="Work Flow Graphic" 
        style="display:block; margin: 20px auto; width:40%; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);"/>
 </p>
 
