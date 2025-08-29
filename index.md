@@ -90,7 +90,7 @@ The Tea App incident is just one of many. It could happen to anyone rushing to p
     <li>✅ <strong>Detects public-facing buckets</strong> and warns you before attackers do</li>
     <li>✅ <strong>Flags hardcoded secrets, tokens, and API keys</strong></li>
     <li>✅ <strong>Analyzes permissions and exported components</strong> for potential abuse</li>
-    <li>✅ <strong>Generates professional reports</strong> in HTML, CSV, and JSON formats</li>
+    <li>✅ <strong>Generates professional reports</strong> in HTML format for display right in the site</li>
   </ul>
 
   <p style="text-align:left; margin:20px 0 20px 0;">
@@ -108,7 +108,7 @@ The Tea App incident is just one of many. It could happen to anyone rushing to p
 - **Fast:** Upload your APK and get results in minutes  
 - **Transparent:** Clear reports with remediation advice  
 - **Focused:** Finds what *actually* leaks, not just noise  
-- **Free:** Open-source and community-driven  
+- **Free:** Yes, we said FREE!  
 
 By integrating this tool into your CI/CD pipeline, you can **stop a leak before it ever hits production**.
 
